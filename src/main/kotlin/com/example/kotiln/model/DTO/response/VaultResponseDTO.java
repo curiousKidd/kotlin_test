@@ -1,7 +1,7 @@
 package com.example.kotiln.model.DTO.response;
 
-import kakao.aisp.javavaultconnecttest.model.DTO.VaultAuthDTO;
-import kakao.aisp.javavaultconnecttest.model.DTO.VaultDataDTO;
+import com.example.kotiln.model.DTO.VaultAuthDTO;
+import com.example.kotiln.model.DTO.VaultDataDTO;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

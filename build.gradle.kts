@@ -18,6 +18,19 @@ repositories {
     mavenCentral()
 }
 
+
+//ext {
+//    set('springCloudVersion', "2023.0.0")
+//}
+
+dependencyManagement {
+    imports {
+        mavenBom("org.springframework.cloud:spring-cloud-dependencies:2023.0.0")
+    }
+}
+
+
+
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
@@ -33,6 +46,10 @@ dependencies {
 
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
+
+    //feignClient
+    implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
+
 
 }
 
