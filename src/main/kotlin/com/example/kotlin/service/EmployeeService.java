@@ -1,6 +1,6 @@
-package com.example.kotiln.service;
+package com.example.kotlin.service;
 
-import com.example.kotiln.model.entity.Employee;
+import com.example.kotlin.model.entity.Employee;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

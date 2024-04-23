@@ -1,4 +1,4 @@
-package com.example.kotiln.model.DTO.response
+package com.example.kotlin.model.DTO.response
 
 data class KotlinVaultResponseDTO(
     var request_id: String,

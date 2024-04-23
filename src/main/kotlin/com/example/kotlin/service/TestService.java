@@ -1,4 +1,4 @@
-package com.example.kotiln.service;
+package com.example.kotlin.service;
 
 import kakao.aisp.javavaultconnecttest.model.DTO.response.VaultResponseDTO;
 

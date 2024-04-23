@@ -1,4 +1,4 @@
-package com.example.kotiln.model.DTO.resquest;
+package com.example.kotlin.model.DTO.resquest;
 
 import lombok.Builder;
 import lombok.Getter;

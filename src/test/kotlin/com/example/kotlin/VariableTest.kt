@@ -1,4 +1,4 @@
-package com.example.kotiln
+package com.example.kotlin
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test

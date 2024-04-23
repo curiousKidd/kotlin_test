@@ -1,4 +1,4 @@
-package com.example.kotiln.model.DTO;
+package com.example.kotlin.model.DTO;
 
 import lombok.Getter;
 import lombok.Setter;

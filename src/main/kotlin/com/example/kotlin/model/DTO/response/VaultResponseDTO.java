@@ -1,7 +1,7 @@
-package com.example.kotiln.model.DTO.response;
+package com.example.kotlin.model.DTO.response;
 
-import com.example.kotiln.model.DTO.VaultAuthDTO;
-import com.example.kotiln.model.DTO.VaultDataDTO;
+import com.example.kotlin.model.DTO.VaultAuthDTO;
+import com.example.kotlin.model.DTO.VaultDataDTO;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

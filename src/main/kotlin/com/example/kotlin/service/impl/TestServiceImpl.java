@@ -1,16 +1,16 @@
-package com.example.kotiln.service.impl;
+package com.example.kotlin.service.impl;
 
-import kakao.aisp.javavaultconnecttest.model.DTO.response.VaultResponseDTO;
-import kakao.aisp.javavaultconnecttest.model.DTO.resquest.VaultRequestDTO;
-import kakao.aisp.javavaultconnecttest.service.TestService;
-import kakao.aisp.javavaultconnecttest.serviceClient.VaultFeignClient;
+import com.example.kotlin.model.DTO.response.VaultResponseDTO;
+import com.example.kotlin.model.DTO.resquest.VaultRequestDTO;
+import com.example.kotlin.service.TestService;
+import com.example.kotlin.serviceClient.VaultFeignClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class TestServiceImpl implements TestService {
+public class TestServiceImpl implements TestService VaultFeignClient vaultFeignClient {
 
     private final VaultFeignClient vaultFeignClient;
 

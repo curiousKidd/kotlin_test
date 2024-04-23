@@ -1,26 +1,26 @@
-package com.example.kotiln
+package com.example.kotlin
 
 import java.sql.DriverManager.println
 
 class Test
 
-fun main(){
-        println("test");
+fun main() {
+    println("test");
 }
 
 /**
  * 리턴이 없는 함수
  */
 fun helloWorld() {
-        println("hello, world")
+    println("hello, world")
 }
 
 /**
  * 리턴값이 있는 함수
  */
 fun max(a: Int, b: Int): Int {
-        //코틀린의 if문은 식(리턴 값이 존재)이지 문(block, return이 없음)이 아니다.
-        return if (a > b) a else b
+    //코틀린의 if문은 식(리턴 값이 존재)이지 문(block, return이 없음)이 아니다.
+    return if (a > b) a else b
 }
 
 /**

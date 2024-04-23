@@ -1,4 +1,4 @@
-package com.example.kotiln
+package com.example.kotlin
 
 class Variable {
 

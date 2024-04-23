@@ -1,6 +1,6 @@
-package com.example.kotiln.repository;
+package com.example.kotlin.repository;
 
-import com.example.kotiln.model.entity.Employee;
+import com.example.kotlin.model.entity.Employee;
 import feign.Param;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

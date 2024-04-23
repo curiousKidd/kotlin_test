@@ -1,4 +1,4 @@
-package com.example.kotiln.model.entity;
+package com.example.kotlin.model.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
