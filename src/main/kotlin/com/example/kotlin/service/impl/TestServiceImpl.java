@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class TestServiceImpl implements TestService VaultFeignClient vaultFeignClient {
+public class TestServiceImpl implements TestService {
 
     private final VaultFeignClient vaultFeignClient;
 
