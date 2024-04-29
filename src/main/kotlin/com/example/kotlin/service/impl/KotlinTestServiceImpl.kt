@@ -3,9 +3,10 @@ package com.example.kotlin.service.impl
 import com.example.kotlin.model.DTO.response.VaultResponseDTO
 import com.example.kotlin.model.DTO.resquest.VaultRequestDTO
 import com.example.kotlin.service.TestService
+import com.example.kotlin.serviceClient.VaultFeignClient
 import org.springframework.beans.factory.annotation.Value
 
-class KotlinTestServiceImpl : TestService {
+class KotlinTestServiceImpl(private var vaultFeignClient: VaultFeignClient) : TestService {
 
     @Value("\${spring.cloud.vault.app-role.role-id}")
     private val roleId: String? = null
