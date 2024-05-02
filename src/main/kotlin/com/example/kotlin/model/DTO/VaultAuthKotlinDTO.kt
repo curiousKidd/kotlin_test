@@ -4,16 +4,15 @@ data class VaultAuthKotlinDTO(
     var client_token: String? = null,
     val accessor: String? = null,
     val policies: List<String>? = null,
-    val metadata: Metadata? = null,
+    val metadata: AuthMetadata? = null,
     val leaseDuration: String? = null,
     val renewable: String? = null,
     val entity_id: String? = null,
+)
 
-//    @lombok.Getter @Setter
-//    class Metadata {
-//    private val approle_id: String? = null
-//    private val approle_no: String? = null
-//    private val roleName: String? = null
-//    private val secret_id_name: String? = null
-//}
+data class AuthMetadata(
+    val approle_id: String? = null,
+    val approle_no: String? = null,
+    val roleName: String? = null,
+    val secret_id_name: String? = null
 )
