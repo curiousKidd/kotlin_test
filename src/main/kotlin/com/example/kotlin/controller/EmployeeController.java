@@ -1,7 +1,7 @@
 package com.example.kotlin.controller;
 
-import kakao.aisp.javavaultconnecttest.model.entity.Employee;
-import kakao.aisp.javavaultconnecttest.service.EmployeeService;
+import com.example.kotlin.model.entity.Employee;
+import com.example.kotlin.service.impl.EmployeeServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +16,7 @@ import java.util.List;
 @RequestMapping("/employees")
 public class EmployeeController {
 
-    private final EmployeeService employeeService;
+    private final EmployeeServiceImpl employeeService;
 
     @GetMapping("/")
     public ResponseEntity<Page<Employee>> getEmployees() {
