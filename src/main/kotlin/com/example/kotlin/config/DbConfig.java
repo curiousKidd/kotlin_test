@@ -16,12 +16,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.sql.DataSource;
 
 @Configuration
+@EnableTransactionManagement
 @EnableJpaRepositories(
         basePackages = "com.example.kotlin.repository",
         entityManagerFactoryRef = "entityManagerFactory",
         transactionManagerRef = "transactionManager")
-@EnableTransactionManagement
-//@MapperScan(value = "com.vivid.dream.mapper", sqlSessionFactoryRef = "sqlSessionFactory")
 public class DbConfig {
 
     @Value("${spring.datasource.url}")
