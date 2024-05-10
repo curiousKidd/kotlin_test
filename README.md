@@ -23,3 +23,14 @@ class 파일명(private var test : Test)
 
 service, implements와 같은 형식의 경우   
 class 파일명() : implements 파일명 {} 형식으로 사용
+
+나는 주로 패키지 구조를 controller, service, repository 구조로 패키징을 하였는데  
+회사에서 처음으로 DDD 구조를 적용해서 패키징 구조를 다른걸 사용하는 것을 보았다
+
+- Presentation ( controller )
+- Application ( service )
+- Domain ( model )
+- Infrastructure ( repository )
+
+해당 구조를 사용해서 프로젝트를 만드는 것이 최근 트렌드 방향이라는 것 같길래.....
+지금 만든 패키징 구조를 유지하며, 새로운 구조를 적용시킨 것을 만들어서 비교해볼 예정...
